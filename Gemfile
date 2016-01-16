@@ -8,11 +8,16 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~>1.3.8'
   gem 'rspec-rails', '~>3.0.0'
+  gem 'guard-rspec', '4.6.4'
+
+  #ctags
+  gem 'guard-ctags-bundler'
 end
 
 group :test do
   gem 'selenium-webdriver', '~>2.35.1'
   gem 'capybara', '~>2.5.0'
+  gem 'libnotify', '0.9.1'
 end
 
 # Use SCSS for stylesheets

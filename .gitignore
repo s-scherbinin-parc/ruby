@@ -8,6 +8,9 @@
 /.bundle
 /.secret
 /.tags
+/.tags1
+/TAGS
+/tags
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
